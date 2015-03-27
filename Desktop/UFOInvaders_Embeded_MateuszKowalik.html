@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>UFOInvaders</title>
+<style>
+body{
+	background-color:#000;
+}
+
+#title{
+	position:absolute;
+	top:2px;
+	left:930px;
+	color:#03F;
+	font-size:25px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.move{
+	position:absolute;
+	top:200px;
+	left:950px;
+	color:#FFF;
+	font-size:22px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:500;
+}
+
+#desc{
+	position:absolute;
+	top:90px;
+	left:840px;
+	color:#0F0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;	
+}
+
+
+
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+		$('#game').hide().fadeIn(6000);
+		
+});
+
+</script>
+</head>
+
+<body>
+<div id="game">
+	<object height="600" width="800">
+    <param name="movie" value="Desktop_UFOInvaders.swf">
+    <embed src="Desktop_UFOInvaders.swf" height="600" width="800"></embed>
+    </object>
+</div>
+<div id="title">
+<h1>UFO Invasion</h1>
+</div>
+    	<div id="desc">
+        <h5> Shoot flying UFO's and then collect them before they reach the earth!</h5>
+        </div>
+        
+        <div class="move"> 
+        <p>LEFT ARROW - MOVE LEFT</p>
+        <p>RIGHT ARROW  - MOVE RIGHT</p>
+        <p>SPACEBAR - SHOOT</p>
+        </div>
+</body>
+</html>
